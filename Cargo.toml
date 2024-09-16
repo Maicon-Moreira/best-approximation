@@ -1,0 +1,15 @@
+[package]
+name = "best-approximation"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+description = "Alternative ways to approximate mathematical constants"
+repository = "https://github.com/Maicon-Moreira/best-approximation"
+keywords = ["math", "constants", "approximation", "formula"]
+categories = ["science", "mathematics"]
+readme = "README.md"
+
+
+[dependencies]
+fasteval = "0.2.4"
+rayon = "1.10.0"
